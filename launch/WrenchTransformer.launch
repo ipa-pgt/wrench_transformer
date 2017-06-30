@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="wrench_transformer" type="WrenchTransformer" name="wrenchTransformer" output="screen" cwd="node">
+		<rosparam command="load" file="$(find wrench_transformer)/launch/transformer_config.yaml"/>
+	</node>
+</launch>
+

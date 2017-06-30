@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <name>wrench_transformer</name>
+  <version>0.0.1</version>
+  <description>The wrench_transformer package</description>
+
+  <maintainer email="lorenz.halt@ipa.fraunhofer.de">ipa-lth</maintainer>
+  <maintainer email="philipp.tenbrock@ipa.fraunhofer.de">ipa-pgt</maintainer>
+
+  <license>MIT</license>
+
+  <url type="website">http://www.ipa.fraunhofer.de/</url>
+
+  <author email="lorenz.halt@ipa.fraunhofer.de">ipa-lth</author>
+  <author email="philipp.tenbrock@ipa.fraunhofer.de">ipa-pgt</author>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

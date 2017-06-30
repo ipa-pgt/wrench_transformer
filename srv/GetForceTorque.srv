@@ -1,0 +1,9 @@
+# Indicates which frame is used as reference
+string frame_id
+
+# Indicates how many samples the KMS should return
+int32 numberOfSamples
+
+---
+# array of samples 
+geometry_msgs/WrenchStamped[] forceTorques
